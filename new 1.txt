@@ -1,0 +1,21 @@
+// *********************** Saison *************************************
+if (month>=1 && month<3)
+{
+document.getElementById("Saison").innerHTML = ("Winter");
+}
+if (month>=3 && month<6)
+{
+document.getElementById("Saison").innerHTML = ("Frühling");
+}
+if (month>=6 && month<9)
+{
+document.getElementById("Saison").innerHTML = ("Sommer");
+}
+if (month>=9 && month<12)
+{
+document.getElementById("Saison").innerHTML = ("Herbst");
+}
+if (month>=12 && month<13)
+{
+document.getElementById("Saison").innerHTML = ("Winter");
+}
